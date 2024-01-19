@@ -1,0 +1,105 @@
+/* Chalk Variables */
+
+// 样式前缀
+$prefix: "kf" !default;
+
+/* 全局状态样式
+-------------------------- */
+
+/* 主题色 
+-------------------------- */
+/* 改变主题色变量 */
+$--color-primary: #1f93ff !default;
+/// 成功
+$--color-success: #3db643 !default;
+/// 紧急
+$--color-warning: #ffbe1b !default;
+/// 非常紧急
+$--color-danger: #ff5d5d !default;
+/// 正常状态
+$--color-info: #999999 !default;
+
+/// color|1|Background Color|4
+$--color-white: #FFFFFF !default;
+/// color|1|Background Color|4
+$--color-black: #000000 !default;
+
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+
+/// 背景色
+$--background-color-base: #f5f7fa !default;
+
+/// 表格头背景色
+$--table-header-background-color: #f5f7fa !default;
+
+// shadow
+$--box-shadow-primary: rgba(0,0,0,0.16);
+
+/* 字体 
+---------------------------*/
+/// 普通字体
+$--font-size-base: 14px !default;
+
+/// 字体颜色
+$--color-text-primary: #333333 !default;
+/// color|1|Font Color|2
+$--color-text-regular: #666666 !default;
+/// color|1|Font Color|2
+$--color-text-secondary: #999999 !default;
+/// color|1|Font Color|2
+$--color-text-placeholder: #c8c8c8 !default;
+/// color|1|Border Color|3
+$--border-color-base: #dcdfe6 !default;
+/// color|1|Border Color|3
+$--border-color-light: #e4e7ed !default;
+/// color|1|Border Color|3
+$--border-color-lighter: #ebeef5 !default;
+/// color|1|Border Color|3
+$--border-color-extra-light: #f2f6fc !default;
+
+/* Typography
+-------------------------- */
+$--font-path: "fonts" !default;
+$--font-display: "auto" !default;
+/// fontSize|1|Font Size|0
+$--font-size-extra-large: 20px !default;
+/// fontSize|1|Font Size|0
+$--font-size-large: 18px !default;
+/// fontSize|1|Font Size|0
+$--font-size-medium: 16px !default;
+/// fontSize|1|Font Size|0
+$--font-size-base: 14px !default;
+/// fontSize|1|Font Size|0
+$--font-size-small: 13px !default;
+/// fontSize|1|Font Size|0
+$--font-size-extra-small: 12px !default;
+/// fontWeight|1|Font Weight|1
+$--font-weight-primary: 500 !default;
+/// fontWeight|1|Font Weight|1
+$--font-weight-secondary: 100 !default;
+/// fontLineHeight|1|Line Height|2
+$--font-line-height-primary: 24px !default;
+/// fontLineHeight|1|Line Height|2
+$--font-line-height-secondary: 16px !default;
+$--font-color-disabled-base: #bbb !default;
+/* Size
+-------------------------- */
+$--size-base: 14px !default;
+
+/* 间距 
+---------------------------*/
+/// 表格复选框间距
+$--table-cell-gap: 14px !default;
+
+/* 宽度
+----------------------------*/
+/// 提示气泡框内容内容宽度
+$--tooltip-content-width: 630px !default;

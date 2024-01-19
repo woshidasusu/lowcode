@@ -1,0 +1,10 @@
+*.sh
+node_modules
+*.md
+*.scss
+*.woff
+*.ttf
+rgui
+dist
+configForm
+src

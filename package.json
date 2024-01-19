@@ -1,0 +1,61 @@
+{
+  "name": "lowcode",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build2": "node --max-old-space-size=1500 ./node_modules/@vue/cli-service/bin/vue-cli-service.js build",
+    "lint": "vue-cli-service lint",
+    "www": "anywhere -s -h localhost -d dist"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "core-js": "^3.8.3",
+    "diff": "^5.1.0",
+    "element-ui": "^2.15.12",
+    "jquery": "^3.6.3",
+    "moment": "^2.30.1",
+    "monaco-editor": "^0.45.0",
+    "monaco-editor-webpack-plugin": "^7.1.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "prismjs": "^1.23.0",
+    "transliteration": "^2.2.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "anywhere": "^1.6.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "fs-extra": "^11.2.0",
+    "lint-staged": "^11.1.2",
+    "lodash.debounce": "^4.0.8",
+    "prettier": "^2.4.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": "vue-cli-service lint"
+  }
+}
